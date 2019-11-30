@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #python{
+            float:right;
+        }
+    </style>
+</head>
+
+<body>
+<img src="../../img/Icon-Python.png" id="python" alt="python_logo">
+<h1>HOW-TO: Программа на Python, Часть 1</h1>
+<ul>
+    <li><a href="#"><i>Программа на Python &mdash; часть 1</i></a></li>
+    <li><a href="../p2/index.html"><i>Программа на Python &mdash; часть 2</i></a></li>
+    <li><a href="../p3/index.html"><i>Программа на Python &mdash; часть 3</i></a></li>
+</ul>
+<h2 id="content">Содержание</h2>
+<h3>HOW-TO: Программа на Python, Часть 1</h3>
+<ul>
+    <li><a href="#firstProgram">Наша первая программа</a></li>
+    <li><a href="#for">Пример цикла For </a></li>
+</ul>
+<p>
+    Из множества существующих языков программирования Python &mdash; один из самых легких в изучении.<br>
+    Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился. Хотя Python входит в <br>
+    состав большинства дистрибутивов Linux, на него часто не обращают внимания при выборе языка <br>
+    для изучения. В этой статье мы рассмотрим создание консольных приложений, а в следующей &mdash; <br>
+    программирование графических интерфейсов (<u>GUI</u>). Давайте создадим простую программу прямо <br>
+    сейчас.
+</p>
+<h2 id="firstProgram">Наша первая программа</h2>
+<a href="#content">К содержанию</a>
+<p>
+    Наберем код в текстовом редакторе (например, в <b>gedit</b>). Потом мы разберемся, что делает каждая <br>
+    строка и пойдем дальше.<br><br>
+    Введите эти 4 строки:<br><br>
+    <code>
+        #!/usr/bin/env python<br>
+        print 'Hello. I am a python program.'<br>
+        name = raw_input("What is your name?")<br>
+        print "Hello, there, " + name + "!"
+    </code><br><br>
+    Это все. Сохраните файл как <b>hello.py</b> в любом месте. Я предлагаю сохранить его в папке<br>
+    <b>python_examples</b> в домашнем каталоге. Этот пример показывает, как просто написать программу на<br>
+    Python. Для запуска программы нужно сделать ее файл исполняемым. Для этого введите в терминале<br><br>
+    <code>
+        <strong><i><u>chmod +x hello.py</u></i></strong>
+    </code><br><br>
+    в папке, в которой вы сохранили программу. Теперь запустите её.<br><br>
+    <code>
+        greg@earth:~/python_examples$ ./hello.py<br>
+        Hello. I am a python program.<br>
+        What is your name? Ferd Burphel<br>
+        Hello, there, Ferd Burphel!<br>
+        greg@earth:~/python_examples$
+    </code><br><br>
+    Вот и все.
+</p>
+<h2 id="for">Пример цикла For</h2>
+<a href="#content">К содержанию</a>
+<p>
+    Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый редактор и<br>
+    наберите следующую программу:<br>
+<pre>
+#!/usr/bin/env python
+for cntr in range(0,10):
+    print cntr
+</pre>
+<i>Не забудьте поставить символ табуляции перед строчкой «print cntr»</i>. Это важно. В Python для<br>
+указания на блоки кода используются не круглые «(» и фигурные «{» скобки как в других языках<br>
+программирования, а отступы.
+</p>
+
+<table width="100%">
+    <col width="33%">
+    <col width="33%">
+    <col width="33%">
+    <tr>
+        <td></td>
+        <td align="center"><a href="#"><svg width="22" height="22" xmlns="http://www.w3.org/2000/svg">
+            <g>
+                <title>background</title>
+                <rect fill="#fff" id="canvas_background" height="24" width="24" y="-1" x="-1"/>
+                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                    <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+                </g>
+            </g>
+            <g>
+                <title>Layer 1</title>
+                <ellipse transform="rotate(-177 11.121951103210451,10.988570213317871) " stroke="#ffffff" ry="11.34144" rx="10.97558" id="svg_2" cy="10.98857" cx="11.12195" stroke-width="1.5" fill="#0fe2e2"/>
+                <rect id="svg_12" height="9.0909" width="10.78581" y="8.14224" x="5.68413" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="1.67075" x2="11.38521" y1="8.29632" x1="5.53005" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_19" y2="1.82484" x2="10.76887" y1="7.83407" x1="16.46995" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+            </g>
+        </svg></a></td>
+        <td align="right"><a href="../p2/index.html"><svg width="22" height="22" xmlns="http://www.w3.org/2000/svg">
+            <g>
+                <title>background</title>
+                <rect fill="#fff" id="canvas_background" height="24" width="24" y="-1" x="-1"/>
+                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                    <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+                </g>
+            </g>
+            <g>
+                <title>Layer 1</title>
+                <ellipse transform="rotate(-177 11.121951103210451,10.988570213317871) " stroke="#ffffff" ry="11.34144" rx="10.97558" id="svg_2" cy="10.98857" cx="11.12195" stroke-width="1.5" fill="#0fe2e2"/>
+                <line transform="rotate(180 10.634143829345703,10.811359405517578) " stroke-linecap="null" stroke-linejoin="null" id="svg_4" y2="10.62272" x2="4.5366" y1="11" x1="16.73169" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+                <line transform="rotate(61 11.456048011779783,8.119688987731934) " stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="4.94897" x2="16.33408" y1="11.29041" x1="6.57801" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+                <line transform="rotate(-62 11.463212013244632,13.42101097106934) " stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="17.07954" x2="16.69491" y1="9.76248" x1="6.23151" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+            </g>
+        </svg></a></td>
+    </tr>
+</table>
+</body>
+</html>
+
