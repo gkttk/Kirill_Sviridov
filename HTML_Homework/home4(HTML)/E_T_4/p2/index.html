@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #python{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+<img src="../../img/Icon-Python.png" id="python" alt="python_logo">
+<h1>HOW-TO: Программа на Python, Часть 2 </h1>
+
+<ul>
+    <li><a href="../p1/index.html"><i>Программа на Python &mdash; часть 1</i></a></li>
+    <li><a href="#"><i>Программа на Python &mdash; часть 2</i></a></li>
+    <li><a href="../p3/index.html"><i>Программа на Python &mdash; часть 3</i></a></li>
+</ul>
+<h2 id="content">Содержание</h2>
+<h3>HOW-TO: Программа на Python, Часть 2</h3>
+<ul>
+    <li><a href="#lists">Списки</a></li>
+    <li><a href="#comments">Комментарии</a></li>
+</ul>
+<hr>\
+<p>
+    В прошлом уроке мы рассмотрели простую программу, которая использовала raw_input<br>
+    для получения ответа пользователя, простые типы переменных и простой цикл «<b>for</b>». В<br>
+    этом уроке мы рассмотрим еще больше типов переменных и напишем еще больше<br>
+    программ.
+</p>
+<h2 id="lists">Списки</h2>
+<a href="#content">К содержанию</a>
+<p>
+    Давайте рассмотрим другой тип переменных, который называется <i>списки</i>. В других<br>
+    языках программирования они называются <i>массивами</i>. Если мы обратимся к аналогии с<br>
+    коробками для обуви, то массив (список) представляет собой несколько склееных друг с <br>
+    другом коробок с одинаковыми вещами. Например, в одной коробке лежат вилки, в<br>
+    другой &mdash; ножи, в третьей &mdash; ложки. Посмотрим на простой список &mdash; список месяцев. Мы<br>
+    запрограммируем его так:<br><br>
+    <code>
+        months = <br>
+        ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    </code><br><br>
+    Чтобы создать список , мы заключили все значения в квадратные скобки (<b>'['</b> и <b>']'</b>). Мы<br>
+    назвали список '<i>months</i>'. Чтобы использовать список, мы дадим команду print<br>
+    <b>months[0]</b> или <b>months[1]</b>(которые выведут на экран '<i>Jan</i>' или '<i>Feb</i>'). Помните: счет<br>
+    начинается с нуля. Чтобы найти длину списка, можно использовать такую функцию:<br><br>
+    <code>
+        print len(mounths)
+    </code><br><br>
+    которая вернет 12.<br><br>
+    Еще один пример списков &mdash; категории в поваренной книге. Например...<br><br><br>
+    <code>
+        categories = ['Main dish', 'Meat', 'Fish', 'Soup', 'Cookies']
+    </code><br><br>
+    Таким образом, в <b>categories[0]</b> хранится '<i>Main dish</i>', а в  <b>categories[4]</b> &mdash; <i>Cookies</i>. Все<br>
+    очень просто. Я уверен, вы сможете придумать много других примеров использования<br>
+    списков.
+</p>
+<hr>
+<h2 id="comments">Комментарии</h2>
+<a href="#content">К содержанию</a>
+<p>
+    Далее, мы должны обсудить комментарии. Комментарии важныо нескольким причинам.<br>
+    Они не только говорят вам или другим людям, что вы пытаетесь делать, но и напомнят<br>
+    вам через полгода, что же вы хотели сделать. Когда вы будете писать много программ,<br>
+    комментарии станут важными. Также при их помощи вы заставите Python игнорировать<br>
+    какие-либо части кода. Чтобы закомментировать строку, поставьте перед ней знак '<i>#</i>'.<br>
+    Например:<br><br>
+    <code>#</code><br><br>
+    Это комментарий<br><br>
+    Комментарии можно вставлять в любое место в строке, но помните, что Python<br>
+    проигнорирует все, что идет после '<i>#</i>'.
+<table width="100%">
+    <tr>
+        <td align="left"><a href="../p1/index.html"><svg width="22" height="22" xmlns="http://www.w3.org/2000/svg">
+            <g>
+                <title>background</title>
+                <rect fill="#fff" id="canvas_background" height="24" width="24" y="-1" x="-1"/>
+                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                    <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+                </g>
+            </g>
+            <g>
+                <title>Layer 1</title>
+                <ellipse stroke="#ffffff" ry="11.34144" rx="10.97558" id="svg_2" cy="10.98857" cx="11.12195" stroke-width="1.5" fill="#0fe2e2"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_4" y2="10.62272" x2="4.5366" y1="11" x1="16.73169" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="4.28127" x2="15.02438" y1="10.62272" x1="5.2683" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="17.69587" x2="15" y1="10.37882" x1="4.5366" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+            </g>
+        </svg></a></td>
+        <td align="center"><a href="#"><svg width="22" height="22" xmlns="http://www.w3.org/2000/svg">
+            <g>
+                <title>background</title>
+                <rect fill="#fff" id="canvas_background" height="24" width="24" y="-1" x="-1"/>
+                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                    <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+                </g>
+            </g>
+            <g>
+                <title>Layer 1</title>
+                <ellipse transform="rotate(-177 11.121951103210451,10.988570213317871) " stroke="#ffffff" ry="11.34144" rx="10.97558" id="svg_2" cy="10.98857" cx="11.12195" stroke-width="1.5" fill="#0fe2e2"/>
+                <rect id="svg_12" height="9.0909" width="10.78581" y="8.14224" x="5.68413" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="1.67075" x2="11.38521" y1="8.29632" x1="5.53005" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_19" y2="1.82484" x2="10.76887" y1="7.83407" x1="16.46995" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+            </g>
+        </svg></a></td>
+        <td align="right"><a href="../p3/index.html"><svg width="22" height="22" xmlns="http://www.w3.org/2000/svg">
+            <g>
+                <title>background</title>
+                <rect fill="#fff" id="canvas_background" height="24" width="24" y="-1" x="-1"/>
+                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                    <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+                </g>
+            </g>
+            <g>
+                <title>Layer 1</title>
+                <ellipse transform="rotate(-177 11.121951103210451,10.988570213317871) " stroke="#ffffff" ry="11.34144" rx="10.97558" id="svg_2" cy="10.98857" cx="11.12195" stroke-width="1.5" fill="#0fe2e2"/>
+                <line transform="rotate(180 10.634143829345703,10.811359405517578) " stroke-linecap="null" stroke-linejoin="null" id="svg_4" y2="10.62272" x2="4.5366" y1="11" x1="16.73169" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+                <line transform="rotate(61 11.456048011779783,8.119688987731934) " stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="4.94897" x2="16.33408" y1="11.29041" x1="6.57801" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+                <line transform="rotate(-62 11.463212013244632,13.42101097106934) " stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="17.07954" x2="16.69491" y1="9.76248" x1="6.23151" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+            </g>
+        </svg></a></td>
+    </tr>
+</table>
+</p>
+</body>
+</html>
+
+
+
